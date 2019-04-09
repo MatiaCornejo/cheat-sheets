@@ -16,4 +16,20 @@ ______
 |float|1.1|
 |double|1.1|
 |char| c|
+## Operadores
+|Operador| Significado|
+|--|--|
+|<|Menor que|
+|<=|Menor o igual que|
+|>|Mayor que|
+|>=|Mayor o igual que|
+|==|Igual que|
+|!=|Distinto de|
+|***Operadores Logicos***| ***Significado***|
+|&&| and|
+|!|not|
+|II| or |
 
+## Arreglos
+* Almacenan conjunto de datos en memoria ***principal***.
+* ***Todos*** los datos almacenados son del mismo tipo.
