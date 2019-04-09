@@ -3,7 +3,7 @@
 ______
 ## Memoria en tiempo de Ejecucion
 |Tipo|Caracteristica|
-|:--:|:--:|
+|:--:|:--|
 |***_Stack_***|***Segmento de datos variables locales***, crece dinamicamente|
 |***_Heap_***|***Segmento de memoria dinámica***,crece dinamicamente|
 |***_Data_***|***Variables globales y estáticas***|
@@ -18,7 +18,7 @@ ______
 |char| c|
 ## Operadores
 |Operador| Significado|
-|:--:|:--:|
+|:--:|:--|
 |<|Menor que|
 |<=|Menor o igual que|
 |>|Mayor que|
@@ -55,3 +55,66 @@ struct nombreStruct variable;
  nombreStruct.tipo1=<valor1>;
  nombreStruct->tipo2=<valor2>;
 ```
+## Punteros
+* Variable que almacena la direccion de otra variable.
+* Declaracion
+```C
+ int* ptrint;
+ float *ptrfloat;
+ char *ptrchar;
+ // etc...
+```
+### Aritmetica de Punteros
+|***Operadores***| ***Significado***|
+|:---:|:---:|
+|++| Aumenta en 1 el la varible apuntada por ptr|
+|--| Disminuye en 1 el la varible apuntada por ptr|
+|=| Iguala el ptr a otro |
+## Ciclos
+### For
+```c
+for(contador;condicion;incremento){
+	 //Codigo
+}
+```
+### While
+```c
+while ( condicion )
+{
+ //Codigo
+}
+```
+### DoWhile
+```c
+do {
+  //Codigo
+} while (condicion);
+```
+## Condiciones
+### If-Else
+```c
+if (condicion){
+  //Codigo
+}
+else{
+  //Codigo
+}
+```
+### Switch
+```c
+switch(dia) {
+  case 1 :
+	  //Codigo
+	  break;
+  case 2 :
+    //Codigo
+		break;
+  case ... :
+		//Codigo
+		break;
+	default :
+		//Codigo
+}
+return 0;
+```
+## Archivos
