@@ -143,6 +143,6 @@ fp = fopen(“nombreArchivo.extension”, modo);
 |"w" |escritura, ***se crea si no existe o se sobreescribe si existe***|
 |"a" |escribe al final, ***si no existe se crea***|
 |"r+"|lectura y escritura, ***el fichero debe existir***|
-|"w+" : crear un archivo para lectura y escritura, ***crea si no existe o se sobreescribe si existe***|
+|"w+" | crear un archivo para lectura y escritura, ***crea si no existe o se sobreescribe si existe***|
 |"r+b ó rb+"| modo binario para actualización ***lectura y escritura***|
 |"rb" | modo binario para lectura|
