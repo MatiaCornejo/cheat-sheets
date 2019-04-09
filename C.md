@@ -102,19 +102,21 @@ else{
 ```
 ### Switch
 ```c
-switch(dia) {
-  case 1 :
-	  //Codigo
-	  break;
-  case 2 :
-    //Codigo
-		break;
-  case ... :
-		//Codigo
-		break;
-	default :
-		//Codigo
+switch(int):
+    case 1 :
+        //Codigo
+	break;
+    case 2 :
+        //Codigo
+        break;
+    case ... :
+        //Codigo
+	break;
+    default :
+        //Codigo
 }
 return 0;
 ```
 ## Archivos
+* Secuencias de bytes para almacenar grandes volumenes de informacion
+
