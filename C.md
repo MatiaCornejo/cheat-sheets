@@ -1,4 +1,4 @@
-# Lenguaje c
+# Lenguaje c   [![Guia](https://img.shields.io/badge/version-1.0-brightgreen.svg?style=flat)](https://github.com/MatiaCornejo/cheat-sheets/edit/master/C.md)
 ###  ***Índice***
 1. [Memoria en tiempo de Ejecucion](#memoria-en-tiempo-de-ejecucion)
 2. [Tipo de Datos](#tipos-de-datos)
@@ -133,3 +133,4 @@ return 0;
 ```c
 FILE *fp;
 ```
+### 
