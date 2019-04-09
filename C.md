@@ -1,11 +1,14 @@
 # Lenguaje c
-###  ***Indice***
-1. [Memoria en tiempo de Ejecucion](https://github.com/MatiaCornejo/cheat-sheets/blob/master/C.md#memoria-en-tiempo-de-ejecucion)
-2. [Tipo de Datos](https://github.com/MatiaCornejo/cheat-sheets/blob/master/C.md#tipos-de-datos)
-3. [Operadores](https://github.com/MatiaCornejo/cheat-sheets/blob/master/C.md#operadores)
-4. [Arreglos](https://github.com/MatiaCornejo/cheat-sheets/blob/master/C.md#arreglos)
-5.[Structs](#structs)
-______
+###  ***Índice***
+1. [Memoria en tiempo de Ejecucion](#memoria-en-tiempo-de-ejecucion)
+2. [Tipo de Datos](#tipos-de-datos)
+3. [Operadores](#operadores)
+4. [Arreglos](#arreglos)
+5. [Structs](#structs)
+6. [Punteros](#punteros)
+7. [Ciclos](#ciclos)
+8. [Condiciones](#condiciones)
+9. [Archivos](archivos)
 ## Memoria en tiempo de Ejecucion
 |Tipo|Caracteristica|
 |:--:|:--|
@@ -76,6 +79,7 @@ struct nombreStruct variable;
 |++| Aumenta en 1 el la varible apuntada por ptr|
 |--| Disminuye en 1 el la varible apuntada por ptr|
 |=| Iguala el ptr a otro |
+
 ## Ciclos
 ### For
 ```c
