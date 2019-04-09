@@ -1,6 +1,10 @@
 # Lenguaje c
 ###  ***Indice***
 1. [Memoria en tiempo de Ejecucion](https://github.com/MatiaCornejo/cheat-sheets/blob/master/C.md#memoria-en-tiempo-de-ejecucion)
+2. [Tipo de Datos](https://github.com/MatiaCornejo/cheat-sheets/blob/master/C.md#tipos-de-datos)
+3. [Operadores](https://github.com/MatiaCornejo/cheat-sheets/blob/master/C.md#operadores)
+4. [Arreglos](https://github.com/MatiaCornejo/cheat-sheets/blob/master/C.md#arreglos)
+5.[Structs](#structs)
 ______
 ## Memoria en tiempo de Ejecucion
 |Tipo|Caracteristica|
@@ -17,6 +21,7 @@ ______
 |float|1.1|
 |double|1.1|
 |char| c|
+
 ## Operadores
 |Operador| Significado|
 |:--:|:--|
