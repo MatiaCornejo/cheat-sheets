@@ -1,4 +1,4 @@
-# Lenguaje c   [![Guia](https://img.shields.io/badge/version-1.0-brightgreen.svg?style=flat)](https://github.com/MatiaCornejo/cheat-sheets/edit/master/C.md)
+# Lenguaje c   [![Version](https://img.shields.io/badge/version-1.0-brightgreen.svg?style=flat)](https://github.com/MatiaCornejo/cheat-sheets/edit/master/C.md)
 ###  ***Índice***
 1. [Memoria en tiempo de Ejecucion](#memoria-en-tiempo-de-ejecucion)
 2. [Tipo de Datos](#tipos-de-datos)
@@ -133,4 +133,16 @@ return 0;
 ```c
 FILE *fp;
 ```
-### 
+### Apertura
+```
+fp = fopen(“nombreArchivo.extension”, modo);
+```
+|***Modo***| **Significado***|
+|:---:|:---:|
+|"r" |lectura, ***el fichero debe existir***|
+|"w" |escritura, ***se crea si no existe o se sobreescribe si existe***|
+|"a" |escribe al final, ***si no existe se crea***|
+|"r+"|lectura y escritura, ***el fichero debe existir***|
+|"w+" : crear un archivo para lectura y escritura, ***crea si no existe o se sobreescribe si existe***|
+|"r+b ó rb+"| modo binario para actualización ***lectura y escritura***|
+|"rb" | modo binario para lectura|
