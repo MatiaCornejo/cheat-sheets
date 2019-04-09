@@ -8,7 +8,7 @@
 6. [Punteros](#punteros)
 7. [Ciclos](#ciclos)
 8. [Condiciones](#condiciones)
-9. [Archivos](archivos)
+9. [Archivos](#archivos)
 ## Memoria en tiempo de Ejecucion
 |Tipo|Caracteristica|
 |:--:|:--|
