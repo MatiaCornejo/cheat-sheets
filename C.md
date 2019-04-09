@@ -1,5 +1,6 @@
 # Lenguaje c
-### Resumen
+###  ***Indice***
+1. [Memoria en tiempo de Ejecucion](https://github.com/MatiaCornejo/cheat-sheets/blob/master/C.md#memoria-en-tiempo-de-ejecucion)
 ______
 ## Memoria en tiempo de Ejecucion
 |Tipo|Caracteristica|
