@@ -52,7 +52,7 @@ int A[10];
 ```c
 typedef struct{
   tipo1 x;
-  tipo2 x;
+  tipo2 y;
 } nombreStruct;
 ```
 * Declaracion
@@ -129,4 +129,7 @@ return 0;
 ```
 ## Archivos
 * Secuencias de bytes para almacenar grandes volumenes de informacion
-
+* Describir archivo.
+```c
+FILE *fp;
+```
